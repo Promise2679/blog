@@ -8,8 +8,8 @@
 <head>
   <meta charset="UTF-8">
 
-  <link rel="apple-touch-icon" sizes="76x76" href="/pictures/5.png">
-  <link rel="icon" href="/pictures/5.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/pictures/5.webp">
+  <link rel="icon" href="/pictures/5.webp">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
@@ -26,13 +26,13 @@
 <meta property="og:site_name" content="Xenlyra的小站">
 <meta property="og:description" content="最近正在学习RSA加密，于是打算把我的理解写下来，希望对后人有所帮助">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://blog.xenlyra.cc/pictures/4.jpg">
+<meta property="og:image" content="https://blog.xenlyra.cc/pictures/4.webp">
 <meta property="article:published_time" content="2025-03-05T11:34:49.000Z">
-<meta property="article:modified_time" content="2025-03-16T12:46:48.404Z">
+<meta property="article:modified_time" content="2025-03-30T13:08:15.835Z">
 <meta property="article:author" content="Xenlyra">
 <meta property="article:tag" content="Crypto">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://blog.xenlyra.cc/pictures/4.jpg">
+<meta name="twitter:image" content="https://blog.xenlyra.cc/pictures/4.webp">
   
   
   
@@ -188,7 +188,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/pictures/4.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/pictures/4.webp') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -270,7 +270,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2025-03-16T20:46:48+08:00
+                    本文最后更新于 2025-03-30T21:08:15+08:00
                   
                   
 
@@ -445,7 +445,7 @@ class="math inline">\(d\)</span>后按照流程走一遍就润了</p>
 <p>已经知道<span
 class="math inline">\(p\)</span>的大部分内容，可以尝试还原出剩余的小部分内容</p>
 <p>打开Sagemath，输入以下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs sagemath">p=0xd1c520d9798f811e87f4ff406941958bab8fc24b19a32c3ad89b0b73258ed3541e9ca696fd98ce15255264c39ae8c6e8db5ee89993fa44459410d30a0a8af700ae3aee8a9a1d6094f8c757d3b79a8d1147e85be34fb260a970a52826c0a92b46cefb5dfaf2b5a31edf867f8d34d2222900000000000000000000000000000000<br>n = 0x79e0bf9b916e59286163a1006f8cefd4c1b080387a6ddb98a3f3984569a4ebb48b22ac36dff7c98e4ebb90ffdd9c07f53a20946f57634fb01f4489fcfc8e402865e152820f3e2989d4f0b5ef1fb366f212e238881ea1da017f754d7840fc38236edba144674464b661d36cdaf52d1e5e7c3c21770c5461a7c1bc2db712a61d992ebc407738fc095cd8b6b64e7e532187b11bf78a8d3ddf52da6f6a67c7e88bef5563cac1e5ce115f3282d5ff9db02278859f63049d1b934d918f46353fea1651d96b2ddd874ec8f1e4b9d487d8849896d1c21fb64029f0d6f47e560555b009b96bfd558228929a6cdf3fb6d47a956829fb1e638fcc1bdfad4ec2c3590dea1ed3<br>PR.&lt;x&gt; = PolynomialRing(Zmod(n))<br>f=p+x<br>x0=f.small_roots(X=2^128,beta=0.4)[0]<br>print(p+x0)<br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs sagemath">p = 0xd1c520d9798f811e87f4ff406941958bab8fc24b19a32c3ad89b0b73258ed3541e9ca696fd98ce15255264c39ae8c6e8db5ee89993fa44459410d30a0a8af700ae3aee8a9a1d6094f8c757d3b79a8d1147e85be34fb260a970a52826c0a92b46cefb5dfaf2b5a31edf867f8d34d2222900000000000000000000000000000000<br>n = 0x79e0bf9b916e59286163a1006f8cefd4c1b080387a6ddb98a3f3984569a4ebb48b22ac36dff7c98e4ebb90ffdd9c07f53a20946f57634fb01f4489fcfc8e402865e152820f3e2989d4f0b5ef1fb366f212e238881ea1da017f754d7840fc38236edba144674464b661d36cdaf52d1e5e7c3c21770c5461a7c1bc2db712a61d992ebc407738fc095cd8b6b64e7e532187b11bf78a8d3ddf52da6f6a67c7e88bef5563cac1e5ce115f3282d5ff9db02278859f63049d1b934d918f46353fea1651d96b2ddd874ec8f1e4b9d487d8849896d1c21fb64029f0d6f47e560555b009b96bfd558228929a6cdf3fb6d47a956829fb1e638fcc1bdfad4ec2c3590dea1ed3<br>PR.&lt;x&gt; = PolynomialRing(Zmod(n))<br>f = p + x<br>x0 = f.small_roots(X=2^128, beta=0.4)[0]<br>print(p + x0)<br></code></pre></td></tr></table></figure>
 <p>得到<span class="math inline">\(p\)</span>后就可以愉快秒题了</p>
 <p><code>small_roots</code>函数中，X指的是小数的范围，至于beta为什么是0.4，去进行了一个AI的问，得到的答案是beta需要满足下式：
 <span class="math display">\[X\le n^{\beta^2/d}\]</span> 此处<span

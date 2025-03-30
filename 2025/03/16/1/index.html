@@ -8,8 +8,8 @@
 <head>
   <meta charset="UTF-8">
 
-  <link rel="apple-touch-icon" sizes="76x76" href="/pictures/5.png">
-  <link rel="icon" href="/pictures/5.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/pictures/5.webp">
+  <link rel="icon" href="/pictures/5.webp">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
@@ -26,13 +26,13 @@
 <meta property="og:site_name" content="Xenlyra的小站">
 <meta property="og:description" content="最近开始在BUUCTF上刷题，遇到了一些古典密码的题目，于是挑了一些有意思的题目水一下 出题人应该去办一个puzzlehunt，来ctf算是屈才了">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://blog.xenlyra.cc/pictures/6.jpg">
+<meta property="og:image" content="https://blog.xenlyra.cc/pictures/6.webp">
 <meta property="article:published_time" content="2025-03-16T12:47:34.000Z">
-<meta property="article:modified_time" content="2025-03-17T11:26:49.526Z">
+<meta property="article:modified_time" content="2025-03-30T13:06:43.506Z">
 <meta property="article:author" content="Xenlyra">
 <meta property="article:tag" content="Crypto">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://blog.xenlyra.cc/pictures/6.jpg">
+<meta name="twitter:image" content="https://blog.xenlyra.cc/pictures/6.webp">
   
   
   
@@ -188,7 +188,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/pictures/6.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/pictures/6.webp') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -270,7 +270,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2025-03-17T19:26:49+08:00
+                    本文最后更新于 2025-03-30T21:06:43+08:00
                   
                   
 
@@ -314,7 +314,7 @@ target="_blank" rel="noopener" href="https://www.rapidtables.org/zh-CN/convert/n
 <h1 id="密码学的心声">密码学的心声</h1>
 <p>这道题本身并不难，但是这题目莫名其妙戳中了我的笑点，所以我一定要拿出来说一下（</p>
 <figure>
-<img src="/pictures/8.bmp" srcset="/img/loading.gif" lazyload alt="有意思的乐谱" />
+<img src="/pictures/8.webp" srcset="/img/loading.gif" lazyload alt="有意思的乐谱" />
 <figcaption aria-hidden="true">有意思的乐谱</figcaption>
 </figure>
 <p>题目给了一个类似乐谱的东西，歌词告诉我们要把乐句转换为ASCII码，“也许你奇怪，我转出来的是啥，你仔细看看，这里面没有八”提示我们要用八进制进行转换，这样一个一个转出来就可以了</p>
@@ -378,7 +378,7 @@ class="math inline">\(O(n^4)\)</span>，n的范围是100左右，虽然不清楚
 <p>这道题就太有puzzlehunt的味道了</p>
 <p>题目给了一个没有后缀名的文件，放进HexEditor查看，根据文件头判断出是.zip文件，直接解压就得到了一张图片。</p>
 <figure>
-<img src="/pictures/7.jpg" srcset="/img/loading.gif" lazyload alt="奇怪的图片" />
+<img src="/pictures/7.webp" srcset="/img/loading.gif" lazyload alt="奇怪的图片" />
 <figcaption aria-hidden="true">奇怪的图片</figcaption>
 </figure>
 <p>先不管日历上奇奇怪怪的符号是什么，首先引起注意的就是那个由大写字母和数字组成的信息，这些字母好像全都来自于从周一到周日的英语的大写首字母，那么后面的数字x应该就是第x个星期几的意思了。对于Saturday，Sunday这样首字母相同的情况应该怎么办呢？就用S1代表周六，S2代表周日，其他的类似情况也是如此。</p>
