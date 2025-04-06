@@ -1,7 +1,7 @@
-https://blog.xenlyra.cc/2025/03/30/randcrack/
-https://blog.xenlyra.cc/2025/03/05/rsa/
-https://blog.xenlyra.cc/2025/03/16/classic-puzzle/
+https://blog.xenlyra.cc/randcrack/
+https://blog.xenlyra.cc/rsa/
+https://blog.xenlyra.cc/classic-puzzle/
 https://blog.xenlyra.cc/about/index.html
-https://blog.xenlyra.cc/2025/02/24/hello-world/
+https://blog.xenlyra.cc/hello-world/
 https://blog.xenlyra.cc/
 https://blog.xenlyra.cc/tags/Crypto/
