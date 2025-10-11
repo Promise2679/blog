@@ -15,31 +15,8 @@
     <atom:link href="https://blog.xenlyra.cc/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 11 Oct 2025 06:58:06 GMT</pubDate>
+    <pubDate>Sat, 11 Oct 2025 06:58:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>test</title>
-      <link>https://blog.xenlyra.cc/test/</link>
-      <guid>https://blog.xenlyra.cc/test/</guid>
-      <pubDate>Sat, 11 Oct 2025 06:40:31 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;rss 是一个基于 xml 的格式规范他可以将来自各平太的信息用统一的格是，一行字数达到 32 左右时出现顶格&lt;/p&gt;
-</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>rss 是一个基于 xml 的格式规范他可以将来自各平太的信息用统一的格是，一行字数达到 32 左右时出现顶格</p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>https://blog.xenlyra.cc/test/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>个人的 RSS 折腾记录</title>
